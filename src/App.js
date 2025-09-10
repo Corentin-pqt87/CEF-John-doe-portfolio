@@ -1,4 +1,4 @@
-import './App.css';
+import './style/App.css';
 import { Routes, Route, Link } from 'react-router-dom';
 // Pages jsx
 import Accueil from './pages/Accueil';
@@ -47,6 +47,35 @@ export default function App() {
           <Route path="/Legales" element={<Legales />} />
         </Routes>
       </main>
+
+      <footer className="bg-dark text-light text-center p-3 mt-4 d-flex justify-content-around flex-wrap text-center ">
+        <div className="mt-3">
+          <h6>John Doe</h6>
+          <address>
+            <Link className="text-light text-decoration-none">40 rue Laure Diebold<br />69009 Lyon, France<br /></Link>
+            <Link className="text-light text-decoration-none" to={"tel:+331020304050"}>10 20 30 40 50<br /></Link>
+            <Link className="text-light text-decoration-none" to={"mailto:john.doe@gmail.com"}>john.doe@gmail.com</Link>
+          </address>
+        </div>
+        <div className="mt-3">
+          <h6>Liens utiles</h6>
+          <Link className="text-light text-decoration-none" to="/">Accueil<br /></Link>
+          <Link className="text-light text-decoration-none" to="/Service">Services<br /></Link>
+          <Link className="text-light text-decoration-none" to="/Realisation">Réalisations<br /></Link>
+          <Link className="text-light text-decoration-none" to="/Contact">Contact<br /></Link>
+          <Link className="text-light text-decoration-none" to="/Legales">Mentions Légales</Link>
+        </div>
+        <div className="mt-3">
+          <h6>Mes dernières réalisations</h6>
+          <p className="mb-1">Fresh Food</p>
+          <p className="mb-1">Restaurent Akira</p>
+          <p className="mb-1">Espace bien-être</p>
+          <p className="mb-1">SEO</p>
+          <p className="mb-1">Création d'une API</p>
+          <p className="mb-1">Maquette d'un site</p>
+        </div>
+      </footer>
+
     </div>
   );
 }
