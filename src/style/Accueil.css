@@ -1,0 +1,27 @@
+/*========== Importation ==========*/
+/*========== Variable ==========*/
+/* Image de font */
+.Accueil {
+  width: 100%;
+  height: calc(100vw * 0.4296875);
+}
+.Accueil::before {
+  content: "";
+  position: absolute;
+  /*top: 0;*/
+  left: 0;
+  width: 100%;
+  height: calc(100vw * 0.4296875);
+  background-image: url("../asset/img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: contrast(70%);
+  z-index: 1;
+}
+.Accueil > * {
+  position: relative;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=Accueil.css.map */

@@ -1,0 +1,37 @@
+/*========== Importation ==========*/
+@use "sass:math";
+
+
+
+/*========== Variable ==========*/
+/* Image de font */
+$image-font: '../asset/img/hero-bg.jpg';
+$image-width: 1920px;
+$image-height: 1100px;
+$scale: 0.75;
+$header-ratio: math.div($image-height, $image-width) * $scale;
+
+.Accueil {
+    width: 100%;
+    height: calc(100vw * #{$header-ratio});
+
+    &::before {
+        content: "";
+        position: absolute;
+        /*top: 0;*/
+        left: 0;
+        width: 100%;
+        height: calc(100vw * #{$header-ratio}); // hauteur proportionnelle à la largeur
+        background-image: url($image-font);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        filter: contrast(70%);
+        z-index: 1;
+    }
+
+    > * {
+        position: relative;
+        z-index: 2;
+    }
+}
