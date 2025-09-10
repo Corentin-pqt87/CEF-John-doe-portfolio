@@ -1,7 +1,15 @@
+// Images
+import banner from '../asset/img/banner.jpg';
+
+// Style
+import '../style/style.css';
+
 export default function Service() {
   return (
-    <div>
-      <h1>Bienvenue sur la page des services</h1>
+    <div className='Service'>
+      <div id='header'>
+
+      </div>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+/*========== Importation ==========*/
+/*========== Variable ==========*/
+/* Image de font */
+/*========== Style ==========*/
+#header {
+  background-image: url("../asset/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vw * 0.15625);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+/*========== Importation ==========*/
+@use "sass:math";
+
+/*========== Variable ==========*/
+/* Image de font */
+$image-font: '../asset/img/banner.jpg';
+$image-font-width: 1920px;
+$image-font-height: 300px;
+$header-ratio: math.div($image-font-height, $image-font-width);
+
+/*========== Style ==========*/
+
+#header {
+    background-image: url($image-font);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: calc(100vw * #{$header-ratio}); // hauteur proportionnelle à la largeur
+    
+}
