@@ -1,6 +1,7 @@
 /*========== Importation ==========*/
 /*========== Variable ==========*/
 /* Image de font */
+/*========== Style ==========*/
 #header {
   width: 100%;
   height: calc(100vw * 0.4296875);
@@ -27,6 +28,16 @@
 #header > * {
   position: relative;
   z-index: 2;
+}
+
+#contenue {
+  margin-top: 3px;
+  border-radius: 1%;
+  box-shadow: 0px 10px 15px lightgray;
+}
+#contenue hr {
+  border: none;
+  border-top: 3px solid blue;
 }
 
 /*# sourceMappingURL=Accueil.css.map */
