@@ -11,7 +11,7 @@ import johnDoeAbout from '../asset/img/john-doe-about.jpg';
 export default function Accueil() {
   return (
     <div className='Accueil'>
-      <div id="header" class="d-flex flex-column justify-content-center align-items-center text-center text-light">
+      <div id="header-Accueil" class="d-flex flex-column justify-content-center align-items-center text-center text-light">
         <h1>Bonjour, je suis John Doe</h1>
         <h2>Développeur Web full stack</h2>
 

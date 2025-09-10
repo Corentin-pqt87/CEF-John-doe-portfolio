@@ -14,7 +14,7 @@ $header-ratio: math.div($image-font-height, $image-font-width) * $scale;
 
 /*========== Style ==========*/
 
-#header {
+#header-Accueil {
     width: 100%;
     height: calc(100vw * #{$header-ratio});
     /*display: flex;
