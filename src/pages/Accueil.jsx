@@ -8,7 +8,7 @@ import "../style/Accueil.css";
 export default function Accueil() {
   return (
     <div className='Accueil'>
-      <div id="header" className='text-light d-flex flex-column align-items-center'>
+      <div id="header" class="d-flex flex-column justify-content-center align-items-center text-center text-light">
         <h1>Bonjour, je suis John Doe</h1>
         <h2>Développeur Web full stack</h2>
 

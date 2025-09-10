@@ -1,11 +1,16 @@
 /*========== Importation ==========*/
 /*========== Variable ==========*/
 /* Image de font */
-.Accueil {
+#header {
   width: 100%;
   height: calc(100vw * 0.4296875);
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;*/
 }
-.Accueil::before {
+#header::before {
   content: "";
   position: absolute;
   /*top: 0;*/
@@ -16,10 +21,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: contrast(70%);
+  filter: contrast(45%);
   z-index: 1;
 }
-.Accueil > * {
+#header > * {
   position: relative;
   z-index: 2;
 }

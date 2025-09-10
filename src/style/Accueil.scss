@@ -11,9 +11,14 @@ $image-height: 1100px;
 $scale: 0.75;
 $header-ratio: math.div($image-height, $image-width) * $scale;
 
-.Accueil {
+#header {
     width: 100%;
     height: calc(100vw * #{$header-ratio});
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;*/
 
     &::before {
         content: "";
@@ -26,7 +31,7 @@ $header-ratio: math.div($image-height, $image-width) * $scale;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; 
-        filter: contrast(70%);
+        filter: contrast(45%);
         z-index: 1;
     }
 
