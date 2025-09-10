@@ -24,7 +24,7 @@ export default function Accueil() {
         </Routes>
       </div>
 
-      <div id='contenue' className='container'>
+      <div id='contenue' className='Contenue-box container text-start'>
         <div className='row my-5'>
           <div className='col-md-6'>
 
