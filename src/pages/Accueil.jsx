@@ -13,7 +13,7 @@ export default function Accueil() {
         <h2>Développeur Web full stack</h2>
 
         <Link to="/Contact" className="btn btn-danger">
-          <button className='btn btn-danger'>En savoir plus</button>
+          En savoir plus
         </Link>
 
         <Routes>
