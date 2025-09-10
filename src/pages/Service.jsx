@@ -1,7 +1,7 @@
 // Images
-import brush from '../asset/svg/brush.svg';
-import search from '../asset/svg/search.svg';
-import codeslash from '../asset/svg/code-slash.svg';
+import {ReactComponent as Brush} from '../asset/svg/brush.svg';
+import {ReactComponent as Search} from '../asset/svg/search.svg';
+import {ReactComponent as Codeslash} from '../asset/svg/code-slash.svg';
 
 // Style
 import '../style/style.css';
@@ -24,7 +24,7 @@ export default function Service() {
             <div className='row g-4 justify-content-center'>
                 <div className='col-12 col-sm-6 col-md-4'>
                     <div className='option-service text-center p-3'>
-                        <img src={brush} alt="UX Design" style={{ width: "50px", height: "50px" }} />
+                        <Brush className="icon" />
                         <h2>UX Design</h2>
                         <p>
                             L'UX Design est une discipline qui consiste à concevoir des
@@ -37,7 +37,7 @@ export default function Service() {
                 
                 <div className="col-12 col-sm-6 col-md-4">
                     <div className='option-service text-center p-3'>
-                        <img src={codeslash} alt="Développement Web" style={{ width: "50px", height: "50px" }} />
+                        <Search className="icon" />
                         <h2>Développement Web</h2>
                         <p>
                             Le développement de sites web consiste à créer des sites internet en utilisant des langages de programmation (HTML, CSS, JavaScript, PHP, etc.) et des frameworks (Bootstrap, React, Angular, etc.).
@@ -47,7 +47,7 @@ export default function Service() {
                 
                 <div className="col-12 col-sm-6 col-md-4">
                     <div className='option-service text-center p-3'>
-                        <img src={search} alt="Référencement" style={{ width: "50px", height: "50px" }} />
+                        <Codeslash className="icon" />
                         <h2>Référencement</h2>
                         <p>
                             Le référencement naturel (SEO) est une technique qui consiste à optimiser un site web pour le faire remonter dans les résultats des moteurs de recherche (Google, Bing, Yahoo, etc.). L'objectif est d'attirer un maximum de visiteurs qualifiés sur le site.
