@@ -20,3 +20,5 @@ $header-ratio: math.div($image-font-height, $image-font-width);
     height: calc(100vw * #{$header-ratio}); // hauteur proportionnelle à la largeur
     
 }
+
+/*<hr class="border border-primary border-2 opacity-100" />*/
