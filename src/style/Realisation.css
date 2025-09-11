@@ -1,3 +1,8 @@
+.row {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .card:hover {
   background-color: #efefef;
   box-shadow: 0px 10px 15px lightgray;
