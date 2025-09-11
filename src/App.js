@@ -1,5 +1,6 @@
 import './style/App.css';
 import { Routes, Route, Link } from 'react-router-dom';
+import React, { useEffect } from "react";
 // Pages jsx
 import Accueil from './pages/Accueil';
 import Service from './pages/Service';
@@ -7,7 +8,18 @@ import Contact from './pages/Contact';
 import Realisation from './pages/Realisation';
 import Legales from './pages/Legales';
 
+// images
+import favion from './asset/img/anonyme.png'
+
 export default function App() {
+
+  useEffect(() => {
+    const link = document.querySelector("link[rel~='icon']");
+    if (link) {
+      link.href = favion;
+    }
+  }, []);
+
   return (
     <div className="text-center">
       <style>
