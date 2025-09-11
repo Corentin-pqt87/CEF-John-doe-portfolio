@@ -1,5 +1,5 @@
 # Portfolio de John Doe
-Ce repository contien toute larchitecture et le code js/jsx/scss d'un site web sous React JS (Les fichiers manquand son dans [.gitignore](.gitignore)).
+Ce repository contien toute larchitecture et le code js/jsx/scss d'un site web sous React JS (Les fichiers manquand son dans [.gitignore](.gitignore)) d'un site web portfolio d'une personne imaginaire pour but d'd'effectuer un exercice.
 
 Le css est fait en partie par [Sass](https://sass-lang.com/) et [Bootstrap](https://getbootstrap.com/).
 
