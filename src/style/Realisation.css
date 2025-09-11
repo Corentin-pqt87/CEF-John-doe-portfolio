@@ -1,26 +1,10 @@
-.Exemple {
-  border: 2px solid lightgray;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s;
-}
-.Exemple img {
-  width: 100%;
-}
-.Exemple .local-footer {
-  border-top: 1px solid lightgray;
-  background-color: rgb(248, 248, 248);
-  padding: 10px;
-  margin-top: 15px;
-}
-
-.Exemple:hover {
+.card:hover {
   background-color: #efefef;
   box-shadow: 0px 10px 15px lightgray;
   transform: translateY(-5px);
   transition: all 0.3s ease-in-out;
 }
-.Exemple:hover .local-footer {
+.card:hover .local-footer {
   border-top: 1px solid lightgray;
   background-color: rgb(248, 248, 248);
   padding: 10px;

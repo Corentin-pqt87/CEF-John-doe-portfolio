@@ -22,101 +22,100 @@ export default function Realisation() {
                 <hr class="border border-primary border-2 opacity-100 mx-auto" style={{ width: "35%" }} />
             </div>
 
-            <div className='container my-5'>
-                <div className='row g-4 justify-content-center'>
+            <div className="row g-4 justify-content-center">
 
-                    <div className='col-12 col-sm-6 col-md-4'>
-                        <div className='Exemple text-center'>
-                            <img src={FreshFood} alt="Fresh Food" className='img-fluid' />
-
-                            <h2>Fresh Food</h2>
-                            <p><small>Site de vente de produits frais en ligne</small></p>
-
-                            <button className='btn btn-primary' disabled>Voir le site</button>
-
-                            <div className='local-footer'>
-                                <small>Site réalisé avec PHP et MySQL</small>
-                            </div>
+                {/* Fresh Food */}
+                <div className="col-12 col-sm-6 col-md-4">
+                    <div className="card h-100 text-center">
+                        <img src={FreshFood} alt="Fresh Food" className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">Fresh Food</h5>
+                            <p className="card-text"><small>Site de vente de produits frais en ligne</small></p>
+                            <button className="btn btn-primary" disabled>Voir le site</button>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted">Site réalisé avec PHP et MySQL</small>
                         </div>
                     </div>
-
-                    <div className='col-12 col-sm-6 col-md-4'>
-                        <div className='Exemple text-center'>
-                            <img src={restaurantAkira} alt="Restaurant Akira" className='img-fluid' />
-
-                            <h2>Restaurant Akira</h2>
-                            <p><small>Site de vente de produits frais en ligne</small></p>
-
-                            <button className='btn btn-primary' disabled>Voir le site</button>
-
-                            <div className='local-footer'>
-                                <small>Site réalisé avec WordPress</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-sm-6 col-md-4'>
-                        <div className='Exemple text-center'>
-                            <img src={EspaceBienEtre} alt="Espace bien-être" className='img-fluid' />
-
-                            <h2>Espace bien-être</h2>
-                            <p><small>Site de vente de produits frais en ligne</small></p>
-
-                            <button className='btn btn-primary' disabled>Voir le site</button>
-
-                            <div className='local-footer'>
-                                <small>Site réalisé avec LARAVEL</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-sm-6 col-md-4'>
-                        <div className='Exemple text-center'>
-                            <img src={seo} alt="SEO" className='img-fluid' />
-
-                            <h2>SEO</h2>
-                            <p><small>Amélioration du référencement d'un site web</small></p>
-
-                            <button className='btn btn-primary' disabled>Voir le site</button>
-
-                            <div className='local-footer'>
-                                <small>Utilisation des outils SEO</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-sm-6 col-md-4'>
-                        <div className='Exemple text-center'>
-                            <img src={coder} alt="Création d'une API" className='img-fluid' /> 
-
-                            <h2>Création d'une API</h2>
-                            <p><small>Création d'une API RESTful publique</small></p>
-
-                            <button className='btn btn-primary' disabled>Voir le site</button>
-                            
-                            <div className='local-footer'>
-                                <small>PHP - SYMFONY</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-sm-6 col-md-4'>
-                        <div className='Exemple text-center'>
-                            <img src={screens} alt="Maquette d'un site" className='img-fluid' />
-
-                            <h2>Maquette d'un site web</h2>
-                            <p><small>Création d'un prototype de site</small></p>
-
-                            <button className='btn btn-primary' disabled>Voir le site</button>
-
-                            <div className='local-footer'>
-                                <small>Réalisation avec FIGMA</small>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+
+                {/* Restaurant Akira */}
+                <div className="col-12 col-sm-6 col-md-4">
+                    <div className="card h-100 text-center">
+                        <img src={restaurantAkira} alt="Restaurant Akira" className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">Restaurant Akira</h5>
+                            <p className="card-text"><small>Site de vente de produits frais en ligne</small></p>
+                            <button className="btn btn-primary" disabled>Voir le site</button>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted">Site réalisé avec WordPress</small>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Espace bien-être */}
+                <div className="col-12 col-sm-6 col-md-4">
+                    <div className="card h-100 text-center">
+                        <img src={EspaceBienEtre} alt="Espace bien-être" className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">Espace bien-être</h5>
+                            <p className="card-text"><small>Site de vente de produits frais en ligne</small></p>
+                            <button className="btn btn-primary" disabled>Voir le site</button>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted">Site réalisé avec LARAVEL</small>
+                        </div>
+                    </div>
+                </div>
+
+                {/* SEO */}
+                <div className="col-12 col-sm-6 col-md-4">
+                    <div className="card h-100 text-center">
+                        <img src={seo} alt="SEO" className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">SEO</h5>
+                            <p className="card-text"><small>Amélioration du référencement d'un site web</small></p>
+                            <button className="btn btn-primary" disabled>Voir le site</button>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted">Utilisation des outils SEO</small>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Création d'une API */}
+                <div className="col-12 col-sm-6 col-md-4">
+                    <div className="card h-100 text-center">
+                        <img src={coder} alt="Création d'une API" className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">Création d'une API</h5>
+                            <p className="card-text"><small>Création d'une API RESTful publique</small></p>
+                            <button className="btn btn-primary" disabled>Voir le site</button>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted">PHP - SYMFONY</small>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Maquette d'un site web */}
+                <div className="col-12 col-sm-6 col-md-4">
+                    <div className="card h-100 text-center">
+                        <img src={screens} alt="Maquette d'un site" className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">Maquette d'un site web</h5>
+                            <p className="card-text"><small>Création d'un prototype de site</small></p>
+                            <button className="btn btn-primary" disabled>Voir le site</button>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted">Réalisation avec FIGMA</small>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
 
         </div>
 
