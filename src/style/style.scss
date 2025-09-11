@@ -34,4 +34,18 @@ $header-ratio: math.div($image-font-height, $image-font-width);
     box-shadow: 0px 10px 15px lightgray;
 }
 
+ul {
+  list-style-type: none; /* supprime les puces par défaut */
+  padding-left: 0;       /* évite le décalage */
+}
+
+ul li {
+  position: relative;
+  padding-left: 25px; /* espace pour l’icône */
+}
+
+ul li img {
+    margin-right: 10px;
+}
+
 /*<hr class="border border-primary border-2 opacity-100" />*/

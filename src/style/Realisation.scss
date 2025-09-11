@@ -13,11 +13,19 @@ $border-radius: 10px;
         border-top: 1px solid lightgray; // seulement le top si nécessaire
         background-color: rgb(248, 248, 248);
         padding: 10px;
+        margin-top: 15px;
     }
     
 }
 .Exemple:hover {
+    background-color: #efefef;
         box-shadow: 0px 10px 15px lightgray;
         transform: translateY(-5px);
         transition: all 0.3s ease-in-out;
+
+        .local-footer {
+        border-top: 1px solid lightgray; // seulement le top si nécessaire
+        background-color: rgb(248, 248, 248);
+        padding: 10px;
+        }
     }
