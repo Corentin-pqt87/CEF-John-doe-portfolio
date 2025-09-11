@@ -21,7 +21,7 @@ export default function App() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
+              <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
                   <Link className="nav-link" to="/Service">Services</Link>
                 </li>
