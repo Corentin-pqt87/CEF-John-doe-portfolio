@@ -5,7 +5,7 @@ Le css est fait en partie par [Sass](https://sass-lang.com/) et [Bootstrap](http
 
 ## Architecture
 - pages web : `src/pages`
-- script `scss/css : src/style`
+- script scss/css : `src/style`
 - image : `src/asset/img`
 - image svg : `src/asset/scg`
 
