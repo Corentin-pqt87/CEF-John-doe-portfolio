@@ -1,7 +1,4 @@
 // Images
-import {ReactComponent as Brush} from '../asset/svg/brush.svg';
-import {ReactComponent as Search} from '../asset/svg/search.svg';
-import {ReactComponent as Codeslash} from '../asset/svg/code-slash.svg';
 
 import envelope from '../asset/svg/envelope-at.svg'
 import geoalt from '../asset/svg/geo-alt.svg'
